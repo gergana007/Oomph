@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./NavigationExplorationV2NEX22355.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Font Awesome 6 Pro:wght@300;400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Font Awesome 6 Sharp:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Baloo Bhai:wght@400&display=swap"
+    />
+	<link rel="stylesheet" href="https://kit.fontawesome.com/e8363987b3.css" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="navigation-exploration-v2-nex">
+      <div class="assumptionpremise-admin-sett-container">
+        <p class="assumptionpremise-admin-sett">
+          <b class="assumptionpremise">Assumption/Premise: </b>
+          <span
+            >Admin settings SHOULD NOT be split out into the Modules. Admin
+            actions are role-based, and therefore, should be present or not
+            present according to role.
+          </span>
+        </p>
+        <p class="assumptionpremise-admin-sett">&nbsp;</p>
+        <p class="assumptionpremise-admin-sett">
+          <b>Notes</b>
+        </p>
+        <ul class="foundational-tenants-will-have">
+          <li class="if-there-is-only-one-link-unde">
+            <span
+              >Foundational Tenants will have super Admin capabilities and will
+              not have any access to their tenants modules</span
+            >
+          </li>
+          <li class="if-there-is-only-one-link-unde">
+            <span
+              >If there is only one Link under an app, the app name IS the link
+              (i.e. Batches and what is now currently Batches &gt; Manage
+              Batches)</span
+            >
+          </li>
+          <li class="if-there-is-only-one-link-unde">
+            <span
+              >If the list of Nav Items gets infinitely long, there might be
+              reasons to ask why certain Apps have links at all. i.e. Should
+              someone be forced to navigate to a Deposit via an Account? Someone
+              can always use Global Search or use the Filter at the top of the
+              drawer to find an app?</span
+            >
+          </li>
+          <li class="if-there-is-only-one-link-unde">
+            <i class="assumptionpremise">Nice to have: </i>
+            <span class="assumptionpremise"
+              >The arrow icons indicate opening the link in a new tab so that
+              users can quickly have two screens in two tabs side by side. We
+              kept to those to the right side to separate them purposefully.
+            </span>
+          </li>
+          <li>
+            <i class="assumptionpremise">Programming assumptions: </i>
+            <span class="assumptionpremise"
+              >The left nav bar would continue to be sticky to the viewport
+              height and would NOT scroll with the rest of the page.
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div class="above-view-of-container">
+        <p class="assumptionpremise-admin-sett">
+          <b>Above</b>
+        </p>
+        <p class="assumptionpremise-admin-sett">View of a Tenant:</p>
+        <ul class="role-tenant-user-no-admin-d">
+          <li class="if-there-is-only-one-link-unde">
+            <i>Role: Tenant User (no admin)</i>
+          </li>
+          <li class="if-there-is-only-one-link-unde">
+            <span class="assumptionpremise">Dashboard</span>
+          </li>
+          <li class="if-there-is-only-one-link-unde">
+            <span class="assumptionpremise">Adv. Search</span>
+          </li>
+          <li class="if-there-is-only-one-link-unde">
+            <span class="assumptionpremise">Revenue module</span>
+          </li>
+          <li class="if-there-is-only-one-link-unde">
+            <span class="assumptionpremise">Property module</span>
+          </li>
+          <li class="if-there-is-only-one-link-unde">
+            <span class="assumptionpremise">Bookmarks</span>
+          </li>
+        </ul>
+        <p class="assumptionpremise-admin-sett">
+          Example shows the current navigation as it stands for a low level
+          access user.
+        </p>
+      </div>
+      <div class="navigation-active">
+        <div class="property-drawer">
+          <div class="property-drawer-child"></div>
+          <div class="scrollable-pane">
+            <div class="navigation-stack8">
+              <div class="single-item">
+                <div class="form-entry">Batches</div>
+                <div class="div166"></div>
+              </div>
+              <div class="navigation-stack-child"></div>
+              <div class="single-item">
+                <div class="form-entry">Deposits</div>
+                <div class="div166"></div>
+              </div>
+              <div class="navigation-stack-child"></div>
+              <div class="group1">
+                <div class="configuration">Entity Management</div>
+                <div class="create-entity16">
+                  <div class="generate-id-configuration">Create Asset</div>
+                  <div class="div168"></div>
+                </div>
+                <div class="create-asset17">
+                  <div class="generate-id-configuration">Create Entity</div>
+                  <div class="div168"></div>
+                </div>
+              </div>
+              <div class="navigation-stack-child"></div>
+              <div class="single-item">
+                <div class="form-entry">Form Entry</div>
+                <div class="div166"></div>
+              </div>
+              <div class="navigation-stack-child"></div>
+              <div class="single-item">
+                <div class="form-entry">Work</div>
+                <div class="div166"></div>
+              </div>
+            </div>
+          </div>
+          <div class="chip-active">
+            <div class="recently-used">Recently Used</div>
+          </div>
+          <div class="chip-active1">
+            <div class="recently-used">Alpha Order</div>
+          </div>
+          <div class="input-field8">
+            <div class="search-field8"></div>
+            <div class="start-typing-wrapper6">
+              <div class="start-typing8">Filter apps</div>
+            </div>
+          </div>
+        </div>
+        <div class="blue-nav-bar3">
+          <div class="blue-nav-bar-item"></div>
+          <div class="boommarks-button1">
+            <div class="boommarks-button-item"></div>
+            <div class="div172"></div>
+          </div>
+          <div class="property-module6">
+            <div class="property-module-child6"></div>
+            <img
+              class="property-module-child7"
+              alt=""
+              src="./public/vector-5.svg"
+            />
+
+            <div class="div173"></div>
+            <div class="property4">Property</div>
+          </div>
+          <div class="adv-search-button3">
+            <div class="adv-search-button-child1"></div>
+            <div class="div174"></div>
+          </div>
+          <div class="dashboard-button3">
+            <div class="adv-search-button-child1"></div>
+            <div class="div174"></div>
+          </div>
+          <img
+            class="rev-x-logo-svg4"
+            alt=""
+            src="./public/rev-x-logo-svg4.svg"
+          />
+        </div>
+      </div>
+      <div class="above-view-of-container1">
+        <p class="assumptionpremise-admin-sett">
+          <b>Above</b>
+        </p>
+        <p class="assumptionpremise-admin-sett">View of a Tenant:</p>
+        <ul class="role-tenant-user-no-admin-d">
+          <li class="if-there-is-only-one-link-unde">
+            <i>Role: Tenant Admin/Manager</i>
+          </li>
+          <li class="if-there-is-only-one-link-unde">
+            <span class="assumptionpremise">Dashboard</span>
+          </li>
+          <li class="if-there-is-only-one-link-unde">
+            <span class="assumptionpremise">Adv. Search</span>
+          </li>
+          <li class="if-there-is-only-one-link-unde">
+            <span class="assumptionpremise">Revenue module</span>
+          </li>
+          <li class="if-there-is-only-one-link-unde">
+            <span class="assumptionpremise">Property module</span>
+          </li>
+          <li class="if-there-is-only-one-link-unde">
+            <span class="assumptionpremise">Bookmarks</span>
+          </li>
+        </ul>
+        <p class="assumptionpremise-admin-sett">
+          Example shows many items in the nav and
+        </p>
+        <p class="assumptionpremise-admin-sett">
+          how they might vertically expand/scroll. The role allows admin access,
+          therefore, there are many items.
+        </p>
+      </div>
+      <div class="revenue-drawer">
+        <div class="property-drawer-child"></div>
+        <img class="mask-group-icon5" alt="" src="./public/mask-group3.svg" />
+
+        <div class="scrollable-pane1">
+          <div class="navigation-stack9">
+            <div class="single-item">
+              <div class="form-entry">Batches</div>
+              <div class="div166"></div>
+            </div>
+            <div class="navigation-stack-child"></div>
+            <div class="single-item">
+              <div class="form-entry">Channels</div>
+              <div class="div166"></div>
+            </div>
+            <div class="navigation-stack-child"></div>
+            <div class="group1">
+              <div class="configuration">Configuration</div>
+              <div class="create-entity16">
+                <div class="generate-id-configuration">
+                  Generate ID Configuration
+                </div>
+                <div class="div168"></div>
+              </div>
+              <div class="create-asset17">
+                <div class="generate-id-configuration">Group Editor</div>
+                <div class="div168"></div>
+              </div>
+              <div class="create-asset17">
+                <div class="generate-id-configuration">
+                  Layout Builder Sandbox
+                </div>
+                <div class="div168"></div>
+              </div>
+              <div class="create-asset17">
+                <div class="generate-id-configuration">Record Editor</div>
+                <div class="div168"></div>
+              </div>
+              <div class="create-asset17">
+                <div class="generate-id-configuration">Type Editor</div>
+                <div class="div168"></div>
+              </div>
+            </div>
+            <div class="navigation-stack-child"></div>
+            <div class="group1">
+              <div class="configuration">Correspondence</div>
+              <div class="create-entity16">
+                <div class="generate-id-configuration">
+                  Correspondence Type Manager
+                </div>
+                <div class="div168"></div>
+              </div>
+              <div class="create-asset17">
+                <div class="generate-id-configuration">
+                  Header & Footer Manager
+                </div>
+                <div class="div168"></div>
+              </div>
+            </div>
+            <div class="navigation-stack-child"></div>
+            <div class="single-item">
+              <div class="form-entry">Dashboards</div>
+              <div class="div166"></div>
+            </div>
+            <div class="navigation-stack-child"></div>
+            <div class="single-item">
+              <div class="form-entry">Deposits</div>
+              <div class="div166"></div>
+            </div>
+            <div class="navigation-stack-child"></div>
+            <div class="group1">
+              <div class="configuration">Entity Management</div>
+              <div class="create-entity16">
+                <div class="generate-id-configuration">Create Asset</div>
+                <div class="div168"></div>
+              </div>
+              <div class="create-asset17">
+                <div class="generate-id-configuration">Create Entity</div>
+                <div class="div168"></div>
+              </div>
+            </div>
+            <div class="navigation-stack-child"></div>
+            <div class="single-item">
+              <div class="form-entry">Channels</div>
+              <div class="div166"></div>
+            </div>
+            <div class="navigation-stack-child"></div>
+            <div class="single-item">
+              <div class="form-entry">Deposits</div>
+              <div class="div166"></div>
+            </div>
+            <div class="navigation-stack-child"></div>
+            <div class="single-item">
+              <div class="form-entry">Form Entry</div>
+              <div class="div166"></div>
+            </div>
+            <div class="navigation-stack-child"></div>
+            <div class="single-item">
+              <div class="form-entry">Reports</div>
+              <div class="div166"></div>
+            </div>
+            <div class="navigation-stack-child"></div>
+            <div class="group1">
+              <div class="configuration">Roles</div>
+              <div class="create-entity16">
+                <div class="generate-id-configuration">Business Policies</div>
+                <div class="div168"></div>
+              </div>
+              <div class="create-asset17">
+                <div class="generate-id-configuration">Roles Tenants</div>
+                <div class="div168"></div>
+              </div>
+              <div class="create-asset17">
+                <div class="generate-id-configuration">Sink Object Browser</div>
+                <div class="div168"></div>
+              </div>
+            </div>
+            <div class="navigation-stack-child"></div>
+            <div class="group1">
+              <div class="configuration">Users</div>
+              <div class="create-entity16">
+                <div class="generate-id-configuration">Add User</div>
+                <div class="div168"></div>
+              </div>
+              <div class="create-asset17">
+                <div class="generate-id-configuration">Bulk Upload</div>
+                <div class="div168"></div>
+              </div>
+              <div class="create-asset17">
+                <div class="generate-id-configuration">User Roles</div>
+                <div class="div168"></div>
+              </div>
+            </div>
+            <div class="navigation-stack-child"></div>
+            <div class="single-item">
+              <div class="form-entry">Work</div>
+              <div class="div166"></div>
+            </div>
+          </div>
+        </div>
+        <div class="chip-active">
+          <div class="recently-used">Recently Used</div>
+        </div>
+        <div class="chip-active1">
+          <div class="recently-used">Alpha Order</div>
+        </div>
+        <div class="input-field8">
+          <div class="search-field8"></div>
+          <div class="start-typing-wrapper6">
+            <div class="start-typing8">Filter apps</div>
+          </div>
+        </div>
+      </div>
+      <div class="blue-nav-bar-revenue">
+        <div class="blue-nav-bar-item"></div>
+        <div class="boommarks-button1">
+          <div class="boommarks-button-item"></div>
+          <div class="div172"></div>
+        </div>
+        <div class="property-button">
+          <div class="property-button-child"></div>
+          <img
+            class="property-button-item"
+            alt=""
+            src="./public/vector-5.svg"
+          />
+
+          <div class="div201"></div>
+          <div class="property5">Property</div>
+        </div>
+        <div class="revenue-button1">
+          <div class="revenue-button-inner"></div>
+          <img
+            class="property-button-item"
+            alt=""
+            src="./public/vector-5.svg"
+          />
+
+          <div class="div202"></div>
+          <div class="property5">Revenue</div>
+        </div>
+        <div class="adv-search-button3">
+          <div class="adv-search-button-child1"></div>
+          <div class="div174"></div>
+        </div>
+        <div class="dashboard-button3">
+          <div class="adv-search-button-child1"></div>
+          <div class="div174"></div>
+        </div>
+        <img
+          class="rev-x-logo-svg4"
+          alt=""
+          src="./public/rev-x-logo-svg5.svg"
+        />
+      </div>
+      <div class="above-view-of-container2">
+        <p class="assumptionpremise-admin-sett">
+          <b>Above</b>
+        </p>
+        <p class="assumptionpremise-admin-sett">
+          View of a Foundational tenant:
+        </p>
+        <ul class="role-tenant-user-no-admin-d">
+          <li class="if-there-is-only-one-link-unde">
+            <i>Role: RSI User Super Admin</i>
+          </li>
+          <li class="if-there-is-only-one-link-unde">
+            <span class="assumptionpremise">Dashboard (?)</span>
+          </li>
+          <li class="if-there-is-only-one-link-unde">
+            <span class="assumptionpremise">Adv. Search</span>
+          </li>
+          <li class="if-there-is-only-one-link-unde">
+            <span class="assumptionpremise">Platform module</span>
+          </li>
+          <li>
+            <span class="assumptionpremise">Bookmarks</span>
+          </li>
+        </ul>
+      </div>
+      <div class="platform-drawer">
+        <div class="property-drawer-child"></div>
+        <img class="mask-group-icon5" alt="" src="./public/mask-group3.svg" />
+
+        <div class="scrollable-pane1">
+          <div class="navigation-stack10">
+            <div class="single-item">
+              <div class="form-entry">Channels</div>
+              <div class="div166"></div>
+            </div>
+            <div class="navigation-stack-child"></div>
+            <div class="group1">
+              <div class="configuration">Correspondence</div>
+              <div class="create-entity16">
+                <div class="generate-id-configuration">
+                  Correspondence Type Manager
+                </div>
+                <div class="div168"></div>
+              </div>
+              <div class="create-asset17">
+                <div class="generate-id-configuration">
+                  Header & Footer Manager
+                </div>
+                <div class="div168"></div>
+              </div>
+            </div>
+            <div class="navigation-stack-child"></div>
+            <div class="single-item">
+              <div class="form-entry">Dashboards</div>
+              <div class="div166"></div>
+            </div>
+            <div class="navigation-stack-child"></div>
+            <div class="group1">
+              <div class="configuration">Configuration</div>
+              <div class="create-entity16">
+                <div class="generate-id-configuration">
+                  Generate ID Configuration
+                </div>
+                <div class="div168"></div>
+              </div>
+              <div class="create-asset17">
+                <div class="generate-id-configuration">Group Editor</div>
+                <div class="div168"></div>
+              </div>
+              <div class="create-asset17">
+                <div class="generate-id-configuration">
+                  Layout Builder Sandbox
+                </div>
+                <div class="div168"></div>
+              </div>
+              <div class="create-asset17">
+                <div class="generate-id-configuration">Record Editor</div>
+                <div class="div168"></div>
+              </div>
+              <div class="create-asset17">
+                <div class="generate-id-configuration">Type Editor</div>
+                <div class="div168"></div>
+              </div>
+            </div>
+            <div class="navigation-stack-child"></div>
+            <div class="single-item">
+              <div class="form-entry">Customer List</div>
+              <div class="div166"></div>
+            </div>
+            <div class="navigation-stack-child"></div>
+            <div class="group1">
+              <div class="configuration">Data Mapper</div>
+              <div class="create-entity16">
+                <div class="generate-id-configuration">Data Mapper Harness</div>
+                <div class="div168"></div>
+              </div>
+              <div class="create-asset17">
+                <div class="generate-id-configuration">Data Mapper v2</div>
+                <div class="div168"></div>
+              </div>
+              <div class="create-asset17">
+                <div class="generate-id-configuration">Sink Object Browser</div>
+                <div class="div168"></div>
+              </div>
+            </div>
+            <div class="navigation-stack-child"></div>
+            <div class="single-item">
+              <div class="form-entry">Docs Design</div>
+              <div class="div166"></div>
+            </div>
+            <div class="navigation-stack-child"></div>
+            <div class="group1">
+              <div class="configuration">logiX</div>
+              <div class="create-entity16">
+                <div class="generate-id-configuration">Form Processing</div>
+                <div class="div168"></div>
+              </div>
+              <div class="create-asset17">
+                <div class="generate-id-configuration">logiX Harness</div>
+                <div class="div168"></div>
+              </div>
+              <div class="create-asset17">
+                <div class="generate-id-configuration">Sink Object Browser</div>
+                <div class="div168"></div>
+              </div>
+            </div>
+            <div class="navigation-stack-child"></div>
+            <div class="single-item">
+              <div class="form-entry">Policy Groups</div>
+              <div class="div166"></div>
+            </div>
+            <div class="navigation-stack-child"></div>
+            <div class="group1">
+              <div class="configuration">Roles</div>
+              <div class="create-entity16">
+                <div class="generate-id-configuration">Business Policies</div>
+                <div class="div168"></div>
+              </div>
+              <div class="create-asset17">
+                <div class="generate-id-configuration">Roles Tenants</div>
+                <div class="div168"></div>
+              </div>
+              <div class="create-asset17">
+                <div class="generate-id-configuration">Sink Object Browser</div>
+                <div class="div168"></div>
+              </div>
+            </div>
+            <div class="navigation-stack-child"></div>
+            <div class="single-item">
+              <div class="form-entry">Tenant List</div>
+              <div class="div166"></div>
+            </div>
+            <div class="navigation-stack-child"></div>
+            <div class="group1">
+              <div class="configuration">Users</div>
+              <div class="create-entity16">
+                <div class="generate-id-configuration">Add User</div>
+                <div class="div168"></div>
+              </div>
+              <div class="create-asset17">
+                <div class="generate-id-configuration">Bulk Upload</div>
+                <div class="div168"></div>
+              </div>
+              <div class="create-asset17">
+                <div class="generate-id-configuration">User Roles</div>
+                <div class="div168"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="chip-active">
+          <div class="recently-used">Recently Used</div>
+        </div>
+        <div class="chip-active1">
+          <div class="recently-used">Alpha Order</div>
+        </div>
+        <div class="input-field8">
+          <div class="search-field8"></div>
+          <div class="start-typing-wrapper6">
+            <div class="start-typing8">Filter apps</div>
+          </div>
+        </div>
+      </div>
+      <div class="revx-navigation-v3">
+        <div class="property-with-label">
+          <div class="property6">Property</div>
+          <img
+            class="property-with-label-child"
+            alt=""
+            src="./public/vector-5.svg"
+          />
+
+          <div class="div230"></div>
+        </div>
+        <div class="revenue-with-label">
+          <img
+            class="property-with-label-child"
+            alt=""
+            src="./public/vector-5.svg"
+          />
+
+          <div class="property6">Revenue</div>
+          <div class="div231"></div>
+        </div>
+        <div class="blue-nav-bar-item"></div>
+        <div class="bookmarks-button2">
+          <div class="boommarks-button-item"></div>
+          <div class="div172"></div>
+        </div>
+        <div class="admin-button">
+          <div class="revenue-button-inner"></div>
+          <img
+            class="property-button-item"
+            alt=""
+            src="./public/vector-5.svg"
+          />
+
+          <img class="vector-icon12" alt="" src="./public/vector12.svg" />
+
+          <img class="vector-icon13" alt="" src="./public/vector13.svg" />
+
+          <img class="vector-icon14" alt="" src="./public/vector14.svg" />
+
+          <div class="platform">Platform</div>
+        </div>
+        <div class="adv-search-button5">
+          <div class="adv-search-button-child1"></div>
+          <div class="div174"></div>
+        </div>
+        <div class="dashboard-button5">
+          <div class="adv-search-button-child1"></div>
+          <div class="div174"></div>
+        </div>
+        <img
+          class="rev-x-logo-svg6"
+          alt=""
+          src="./public/rev-x-logo-svg6.svg"
+        />
+      </div>
+    </div>
+  </body>
+</html>
